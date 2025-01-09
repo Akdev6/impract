@@ -3,7 +3,7 @@ const dotenv=require('dotenv')
 
 dotenv.config({port:'/config.env'});
 
-const DB_URL =  "mongodb://localhost:27017/referalSystem"
+const DB_URL =  "mongodb+srv://developerankit0608:DYJN5CLFk94NP0jL@cluster0.c4ezm.mongodb.net/referalSystem"
 console.log(DB_URL);
 
 const DBconnect = async () => {
